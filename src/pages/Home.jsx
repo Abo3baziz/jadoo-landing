@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import travelar from "../assets/images/Traveller 1.png";
 import playButton from "../assets/svgs/play-button.svg";
 import underlineDecore from "../assets/svgs/Decore.svg";
+import Category from "../components/Category";
 
 function Home() {
   return (
@@ -18,11 +19,10 @@ function Home() {
 
         <div className="grid grid-flow-col grid-col-2">
           <div className="mt-16 -mr-[10rem]">
-            <p className="font-poppins font-bold text-[1.25rem] uppercase text-orange">
+            <p className="font-poppins font-bold text-[1.25rem] uppercase text-var-orange-500">
               Best Destinations around the world
             </p>
-
-            <p className="font-volkhov text-[5.25rem] text-purple w-fit tracking-tight">
+            <div className="font-volkhov text-[5.25rem] text-var-purple-900 w-fit tracking-tight">
               Travel,{" "}
               <p className="inline relative">
                 {/* 
@@ -38,7 +38,7 @@ function Home() {
               </p>{" "}
               <br />
               and live a new <br /> and full life
-            </p>
+            </div>
             <p className="font-poppins font-medium text-[#5E6282] mb-10">
               Built Wicket longer admire do barton vanity itself do in it.{" "}
               <br />
@@ -72,6 +72,8 @@ function Home() {
             />
           </div>
         </div>
+
+        <Category />
       </div>
     </>
   );
