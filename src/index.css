@@ -5,8 +5,9 @@
   --font-condensed: "Open Sans Condensed", sans-serif;
   --font-volkhov: "Volkhov", serif;
 
-  --color-orange: #df6951;
-  --color-purple: #181e4b;
+  --color-var-orange-500: #df6951;
+  --color-var-purple-900: #181e4b;
+  --color-var-purple-midnight: #14183e;
 }
 
 .active {
