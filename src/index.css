@@ -4,6 +4,9 @@
   --font-poppins: "Poppins", sans-serif;
   --font-condensed: "Open Sans Condensed", sans-serif;
   --font-volkhov: "Volkhov", serif;
+
+  --color-orange: #df6951;
+  --color-purple: #181e4b;
 }
 
 .active {
