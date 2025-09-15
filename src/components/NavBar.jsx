@@ -1,6 +1,6 @@
 import jadooLogo from "../assets/svgs/logo.svg";
 import { Link, NavLink } from "react-router";
-import LanguagueDropdown from "./languagueDropdown";
+import LanguagueDropdown from "./LanguagueDropdown";
 
 function NavBar() {
   return (
