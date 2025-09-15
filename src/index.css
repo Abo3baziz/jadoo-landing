@@ -2,7 +2,7 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif;
-  --font-condensed: "Open Sans Condensed", sans-serif;
+  --font-condensed: "Open Sans", sans-serif;
   --font-volkhov: "Volkhov", serif;
 
   --color-var-orange-500: #df6951;
@@ -15,16 +15,16 @@
 }
 
 @font-face {
-  font-family: "Open Sans Condensed";
-  src: url("/fonts/Open_Sans/OpenSansCondensed-Regular.woff2") format("woff2");
+  font-family: "Open Sans";
+  src: url("/fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Open Sans Condensed";
-  src: url("/fonts/Open_Sans/OpenSansCondensed-SemiBold.woff2") format("woff2");
+  font-family: "Open Sans";
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
