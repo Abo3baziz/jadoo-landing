@@ -8,6 +8,8 @@
   --color-var-orange-500: #df6951;
   --color-var-purple-900: #181e4b;
   --color-var-purple-midnight: #14183e;
+
+  --shadow-var-places-card: "0px 5px 30px 10px rgba(0,0,0,0.11)";
 }
 
 .active {
