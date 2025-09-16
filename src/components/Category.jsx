@@ -33,7 +33,7 @@ const services = [
 function Category() {
   return (
     <article className="flex flex-col items-center mt-25">
-      <SectionName text="category" />
+      <SectionName text="category" uppercase />
       <SectionHeading text="We Offer Best Services" />
 
       <div className="mt-[3.75rem]">
