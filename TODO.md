@@ -14,3 +14,4 @@ services font: open sans
 
   - TODO P3 responsive across devices
   - TODO P3 languague selector dropdown styling
+  - TODO P2 add animation to the places card
