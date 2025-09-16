@@ -4,6 +4,7 @@ import travelar from "../assets/images/Traveller 1.png";
 import playButton from "../assets/svgs/play-button.svg";
 import underlineDecore from "../assets/svgs/Decore.svg";
 import Category from "../components/Category";
+import Destenation from "../components/Destenation";
 
 function Home() {
   return (
@@ -74,6 +75,7 @@ function Home() {
         </div>
 
         <Category />
+        <Destenation />
       </div>
     </>
   );
