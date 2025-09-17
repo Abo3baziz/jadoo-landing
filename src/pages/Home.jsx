@@ -5,6 +5,7 @@ import playButton from "../assets/svgs/play-button.svg";
 import underlineDecore from "../assets/svgs/Decore.svg";
 import Category from "../components/Category";
 import Destenation from "../components/Destenation";
+import Toturial from "../components/Toturial";
 
 function Home() {
   return (
@@ -76,6 +77,7 @@ function Home() {
 
         <Category />
         <Destenation />
+        <Toturial />
       </div>
     </>
   );
