@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function FooterLinks({ column }) {
   const { header, links } = column;
   return (
@@ -7,9 +9,9 @@ function FooterLinks({ column }) {
       </p>
       <span className="flex flex-col gap-y-3 font-poppins font-medium leading-[124.5%] text-[#5E6282]">
         {links.map((link, index) => (
-          <p className="cursor-pointer" key={index}>
+          <Link to="fakeSocial" className="cursor-pointer" key={index}>
             {link}
-          </p>
+          </Link>
         ))}
       </span>
     </div>

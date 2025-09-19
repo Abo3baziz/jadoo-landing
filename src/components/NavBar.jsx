@@ -12,7 +12,7 @@ function NavBar() {
         <ul className="flex gap-x-[3.75rem] mr-[5.375rem] ">
           <li>
             <NavLink
-              to="/destinations"
+              to="fakeSocial"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Destinations
@@ -20,7 +20,7 @@ function NavBar() {
           </li>
           <li>
             <NavLink
-              to="/hotels"
+              to="fakeSocial"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Hotels
@@ -28,7 +28,7 @@ function NavBar() {
           </li>
           <li>
             <NavLink
-              to="/flights"
+              to="fakeSocial"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Flights
@@ -36,7 +36,7 @@ function NavBar() {
           </li>
           <li>
             <NavLink
-              to="/bookings"
+              to="fakeSocial"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Bookings
@@ -47,10 +47,10 @@ function NavBar() {
         <div className="flex items-center">
           <ul className="flex gap-x-[3.25rem] items-center m-[2.5rem]">
             <li>
-              <Link>Login</Link>
+              <Link to="fakeSocial">Login</Link>
             </li>
             <li className="border-1 rounded-[5px] px-3 py-1.5">
-              <Link>Sign up</Link>
+              <Link to="fakeSocial">Sign up</Link>
             </li>
           </ul>
           {/* Langugue dropdown button */}

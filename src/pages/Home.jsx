@@ -10,6 +10,7 @@ import Testimonials from "../components/Testimonials";
 import Sponsers from "../components/Sponsers";
 import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -52,9 +53,12 @@ function Home() {
               sell they west hard for the.
             </p>
             <div className="flex">
-              <button className="bg-[#F1A501] text-white rounded-[10px] w-[170px] h-[60px] mr-10">
+              <Link
+                to="fakeSocial"
+                className="bg-[#F1A501] flex justify-center items-center text-white rounded-[10px] w-[170px] h-[60px] mr-10"
+              >
                 Find out more
-              </button>
+              </Link>
 
               <div className="flex items-center gap-x-5">
                 <button>
