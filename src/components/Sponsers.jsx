@@ -6,7 +6,7 @@ function Sponsers() {
     <article className="flex gap-x-15 mt-[200px] justify-center">
       <ul className="flex justify-center items-center">
         {sponsers.map((sponser) => (
-          <SponserCard image={sponser} />
+          <SponserCard sponser={sponser} key={sponser.alt} />
         ))}
       </ul>
     </article>
