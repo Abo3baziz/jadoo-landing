@@ -8,6 +8,7 @@ import Destenation from "../components/Destenation";
 import Toturial from "../components/Toturial";
 import Testimonials from "../components/Testimonials";
 import Sponsers from "../components/Sponsers";
+import NewsLetter from "../components/NewsLetter";
 
 function Home() {
   return (
@@ -82,6 +83,7 @@ function Home() {
         <Toturial />
         <Testimonials />
         <Sponsers />
+        <NewsLetter />
       </div>
     </>
   );
