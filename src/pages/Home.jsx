@@ -9,6 +9,7 @@ import Toturial from "../components/Toturial";
 import Testimonials from "../components/Testimonials";
 import Sponsers from "../components/Sponsers";
 import NewsLetter from "../components/NewsLetter";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -84,6 +85,7 @@ function Home() {
         <Testimonials />
         <Sponsers />
         <NewsLetter />
+        <Footer />
       </div>
     </>
   );
