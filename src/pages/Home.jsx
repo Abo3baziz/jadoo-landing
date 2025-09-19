@@ -7,6 +7,7 @@ import Category from "../components/Category";
 import Destenation from "../components/Destenation";
 import Toturial from "../components/Toturial";
 import Testimonials from "../components/Testimonials";
+import Sponsers from "../components/Sponsers";
 
 function Home() {
   return (
@@ -80,6 +81,7 @@ function Home() {
         <Destenation />
         <Toturial />
         <Testimonials />
+        <Sponsers />
       </div>
     </>
   );
