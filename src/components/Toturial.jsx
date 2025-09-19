@@ -6,7 +6,7 @@ import iconC from "../assets/svgs/Group-3.svg";
 
 function Toturial() {
   return (
-    <article className="mt-[11.875rem] grid grid-col-2 grid-flow-col">
+    <article className="mt-[11.875rem] grid grid-col-2 grid-flow-col justify-items-center">
       <div>
         <div className="w-[500px] mb-[30px]">
           <SectionName text="Easy and Fast" />
