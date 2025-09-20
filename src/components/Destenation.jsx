@@ -30,7 +30,7 @@ function Destenation() {
     },
   ];
   return (
-    <article className="flex flex-col items-center mt-35">
+    <article className="mt-35 flex flex-col items-center">
       <SectionName text="Top Selling" />
       <SectionHeading text="Top Destinations" />
       <ul className="flex gap-x-[3.75rem]">

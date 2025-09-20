@@ -22,10 +22,10 @@ function Footer() {
   ];
   return (
     <footer className="flex flex-col items-center">
-      <div className="grid grid-cols-5 mt-[200px] mb-[84px] justify-items-center">
+      <div className="mt-[200px] mb-[84px] grid grid-cols-5 justify-items-center">
         <div>
           <img src={jadooLogo} alt="jadoo logo" />
-          <p className="font-medium font-poppins text-[13px] leading-[124.5%] text-[#5E6282] mt-[25px]">
+          <p className="font-poppins mt-[25px] text-[13px] leading-[124.5%] font-medium text-[#5E6282]">
             Book your trip in minute, get full Control for much longer.
           </p>
         </div>
@@ -37,19 +37,19 @@ function Footer() {
         <div className="flex flex-col items-center gap-y-5">
           <div className="flex gap-x-5">
             <Link
-              className="size-[40px] rounded-[50%] flex justify-center items-center"
+              className="flex size-[40px] items-center justify-center rounded-[50%]"
               to="/fakeSocial"
             >
               <img src={facebookLogo} alt="facebook logo" />
             </Link>
             <Link
-              className="size-[40px] rounded-[50%] flex justify-center items-center"
+              className="flex size-[40px] items-center justify-center rounded-[50%]"
               to="/fakeSocial"
             >
               <img src={instagramIcon} alt="instagram logo" />
             </Link>
             <Link
-              className="size-[40px] rounded-[50%] flex justify-center items-center"
+              className="flex size-[40px] items-center justify-center rounded-[50%]"
               to="/fakeSocial"
             >
               {/* TODO P3 remove unwanted assets */}
@@ -58,17 +58,17 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <p className="font-poppins font-medium text-[#5E6282] leading-[124.5%] text-center text-[20px]">
+            <p className="font-poppins text-center text-[20px] leading-[124.5%] font-medium text-[#5E6282]">
               Discover our App
             </p>
-            <div className="flex gap-x-4 mt-5">
-              <button className="bg-[url(/images/GooglePlay.svg)] bg-contain bg-no-repeat w-[150px] h-[50px] cursor-pointer"></button>
-              <button className="bg-[url(/images/PlayStore.svg)] bg-contain bg-no-repeat w-[150px] h-[50px] cursor-pointer"></button>
+            <div className="mt-5 flex gap-x-4">
+              <button className="h-[50px] w-[150px] cursor-pointer bg-[url(/images/GooglePlay.svg)] bg-contain bg-no-repeat"></button>
+              <button className="h-[50px] w-[150px] cursor-pointer bg-[url(/images/PlayStore.svg)] bg-contain bg-no-repeat"></button>
             </div>
           </div>
         </div>
       </div>
-      <p className="font-medium font-poppins text-[14px] text-[#5E6282]">
+      <p className="font-poppins text-[14px] font-medium text-[#5E6282]">
         All rights reserved@jadoo.co
       </p>
     </footer>

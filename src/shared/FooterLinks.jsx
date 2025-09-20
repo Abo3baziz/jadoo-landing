@@ -4,10 +4,10 @@ function FooterLinks({ column }) {
   const { header, links } = column;
   return (
     <div>
-      <p className="font-poppins font-bold text-[21px] leading-[124.5%] mb-[35px]">
+      <p className="font-poppins mb-[35px] text-[21px] leading-[124.5%] font-bold">
         {header}
       </p>
-      <span className="flex flex-col gap-y-3 font-poppins font-medium leading-[124.5%] text-[#5E6282]">
+      <span className="font-poppins flex flex-col gap-y-3 leading-[124.5%] font-medium text-[#5E6282]">
         {links.map((link, index) => (
           <Link to="fakeSocial" className="cursor-pointer" key={index}>
             {link}

@@ -6,13 +6,13 @@ import iconC from "../assets/svgs/Group-3.svg";
 
 function Toturial() {
   return (
-    <article className="mt-[11.875rem] grid grid-col-2 grid-flow-col justify-items-center">
+    <article className="grid-col-2 mt-[11.875rem] grid grid-flow-col justify-items-center">
       <div>
-        <div className="w-[500px] mb-[30px]">
+        <div className="mb-[30px] w-[500px]">
           <SectionName text="Easy and Fast" />
           <SectionHeading text="Book Your Next Trip In 3 Easy Steps" />
         </div>
-        <ul className="font-poppins text-[#5E6282] flex flex-col gap-y-[48px]">
+        <ul className="font-poppins flex flex-col gap-y-[48px] text-[#5E6282]">
           <li className="flex gap-x-5">
             <img src={iconA} alt="icon" />
             <span>
@@ -46,7 +46,7 @@ function Toturial() {
         </ul>
       </div>
       {/* TODO convert this image to component */}
-      <div className="bg-[url(./images/Image.png)] bg-cover w-[500px]"></div>
+      <div className="w-[500px] bg-[url(./images/Image.png)] bg-cover"></div>
     </article>
   );
 }

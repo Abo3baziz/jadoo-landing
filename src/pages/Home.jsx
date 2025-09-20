@@ -15,23 +15,23 @@ import { Link } from "react-router";
 function Home() {
   return (
     <>
-      <div className="pb-[5rem] px-[8.75rem] relative">
+      <div className="relative px-[8.75rem] pb-[5rem]">
         <img
           src={decore}
           alt="decore"
-          className="absolute top-0 right-0 size-200 -z-1"
+          className="absolute top-0 right-0 -z-1 size-200"
         />
 
         <NavBar />
 
-        <div className="grid grid-flow-col grid-col-2">
+        <div className="grid-col-2 grid grid-flow-col">
           <div className="mt-16 -mr-[10rem]">
-            <p className="font-poppins font-bold text-[1.25rem] uppercase text-var-orange-500">
+            <p className="font-poppins text-var-orange-500 text-[1.25rem] font-bold uppercase">
               Best Destinations around the world
             </p>
-            <div className="font-volkhov text-[5.25rem] text-var-purple-900 w-fit tracking-tight">
+            <div className="font-volkhov text-var-purple-900 w-fit text-[5.25rem] tracking-tight">
               Travel,{" "}
-              <p className="inline relative">
+              <p className="relative inline">
                 {/* 
                 TODO change image to SVG componenet using svgr 
                 TODO animate SVG
@@ -46,7 +46,7 @@ function Home() {
               <br />
               and live a new <br /> and full life
             </div>
-            <p className="font-poppins font-medium text-[#5E6282] mb-10">
+            <p className="font-poppins mb-10 font-medium text-[#5E6282]">
               Built Wicket longer admire do barton vanity itself do in it.{" "}
               <br />
               Preferred to sportsmen it engrossed listening. Park gate <br />{" "}
@@ -55,7 +55,7 @@ function Home() {
             <div className="flex">
               <Link
                 to="fakeSocial"
-                className="bg-[#F1A501] flex justify-center items-center text-white rounded-[10px] w-[170px] h-[60px] mr-10"
+                className="mr-10 flex h-[60px] w-[170px] items-center justify-center rounded-[10px] bg-[#F1A501] text-white"
               >
                 Find out more
               </Link>
@@ -68,7 +68,7 @@ function Home() {
                     alt="play button icon"
                   />
                 </button>
-                <p className="text-[#686D77] font-poppins font-medium">
+                <p className="font-poppins font-medium text-[#686D77]">
                   Play Demo
                 </p>
               </div>
@@ -76,7 +76,7 @@ function Home() {
           </div>
           <div>
             <img
-              className="w-[55rem] relative "
+              className="relative w-[55rem]"
               src={travelar}
               alt="travelar image"
             />

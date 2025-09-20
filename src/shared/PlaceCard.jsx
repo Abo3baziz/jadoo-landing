@@ -5,14 +5,14 @@ function PlaceCard({ data }) {
   const { location, price, tripDuration, image } = data;
 
   return (
-    <div className="overflow-hidden rounded-[24px] mt-[3.75rem] w-[315px] shadow-lg">
-      <img className="w-[314px] h-[457px]" src={image.src} alt={image.alt} />
-      <div className="pt-[20px] pl-[20px] pr-[25px] pb-[40px] font-poppins font-medium text-[#5E6282]">
-        <span className="flex justify-between text-[18px] mb-[15px]">
+    <div className="mt-[3.75rem] w-[315px] overflow-hidden rounded-[24px] shadow-lg">
+      <img className="h-[457px] w-[314px]" src={image.src} alt={image.alt} />
+      <div className="font-poppins pt-[20px] pr-[25px] pb-[40px] pl-[20px] font-medium text-[#5E6282]">
+        <span className="mb-[15px] flex justify-between text-[18px]">
           <p>{location}</p>
           <p>{formatPrice(price)}</p>
         </span>
-        <span className="flex ">
+        <span className="flex">
           <img
             src={navigationIcon}
             alt="Navigation Icon"

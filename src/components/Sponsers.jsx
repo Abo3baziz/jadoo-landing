@@ -3,8 +3,8 @@ import SponserCard from "../shared/SponserCard";
 
 function Sponsers() {
   return (
-    <article className="flex gap-x-15 mt-[200px] justify-center">
-      <ul className="flex justify-center items-center">
+    <article className="mt-[200px] flex justify-center gap-x-15">
+      <ul className="flex items-center justify-center">
         {sponsers.map((sponser) => (
           <SponserCard sponser={sponser} key={sponser.alt} />
         ))}

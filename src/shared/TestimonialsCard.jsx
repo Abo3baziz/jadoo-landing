@@ -24,24 +24,24 @@ export default function TestimonialsCard() {
   const { review, name, address } = clientsComments[index];
 
   return (
-    <div className="flex flex-col relative w-[504px] h-[245px] rounded-[10px] pt-[28px] pl-[34px] pr-[68px] shadow-2xl">
+    <div className="relative flex h-[245px] w-[504px] flex-col rounded-[10px] pt-[28px] pr-[68px] pl-[34px] shadow-2xl">
       <img
-        className="absolute size-[68px] rounded-[100%] -top-[35px] -left-[35px]"
+        className="absolute -top-[35px] -left-[35px] size-[68px] rounded-[100%]"
         src={avatar}
         alt="image of client"
       />
 
-      <q className="block font-poppins font-medium text-[#5E6282] leading-[32px]">
+      <q className="font-poppins block leading-[32px] font-medium text-[#5E6282]">
         {review}
       </q>
 
       <span className="mt-5">
         <p className="font-poppins font-semibold text-[#5E6282]">{name}</p>
-        <p className="text-[14px] text-[#5E6282] font-medium">
+        <p className="text-[14px] font-medium text-[#5E6282]">
           {address.country}, {address.state}
         </p>
       </span>
-      <div className="absolute flex flex-col gap-y-5 top-[30px] -right-[45px]">
+      <div className="absolute top-[30px] -right-[45px] flex flex-col gap-y-5">
         <button className="cursor-pointer" onClick={prevTestimonial}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function TestimonialsCard() {
             viewBox="0 0 24 24"
             strokeWidth={2}
             stroke="#BCB7C2"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
@@ -65,7 +65,7 @@ export default function TestimonialsCard() {
             viewBox="0 0 24 24"
             strokeWidth={2}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"

@@ -8,11 +8,11 @@ function ServiceCard({ heading, description, image, shadow = null }) {
 
   return (
     <div className={cssClasses}>
-      <img src={image} alt="service image" className="size-20 mb-[30px]" />
-      <h1 className="font-condensed font-semibold text-[20px] text-[#1E1D4C] mb-[15px]">
+      <img src={image} alt="service image" className="mb-[30px] size-20" />
+      <h1 className="font-condensed mb-[15px] text-[20px] font-semibold text-[#1E1D4C]">
         {heading}
       </h1>
-      <p className="font-poppins font-medium leading-[26px] text-[#5E6282] w-[185px] justify-self-end">
+      <p className="font-poppins w-[185px] justify-self-end leading-[26px] font-medium text-[#5E6282]">
         {description}
       </p>
       {/* TODO fix the stacking context */}
